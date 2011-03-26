@@ -1,0 +1,28 @@
+= Divisible
+
+Divisible is a Ruby gem useful in case you need to find out if one number is divisible by another
+
+== Examples
+
+  9.divisible_by(3) # => true
+  10.divisible_by(3) # => false
+  12.divisible_by(3) # => true
+  12.divisible_by(4) # => true
+  15.divisible_by(4) # => false
+  
+Same can be done with
+
+  Divisible.check(9, 3) # => true
+  Divisible.check(10, 3) # => false
+  Divisible.check(12, 3) # => true
+  Divisible.check(12, 4) # => true
+  Divisible.check(15, 4) # => false
+  
+== Install
+
+  gem install divisible
+  
+== Licence
+
+Copyright (c) 2011 Vlado Cingel, released under the MIT license
+
