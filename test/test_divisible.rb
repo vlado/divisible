@@ -3,7 +3,7 @@ require "divisible"
 require "divisible/core_ext"
 
 
-class TestSomething < Test::Unit::TestCase
+class TestDivisible < Test::Unit::TestCase
   def test_if_loaded
     assert Fixnum.method_defined?(:divisible_by?)
   end
