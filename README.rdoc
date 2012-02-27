@@ -4,11 +4,13 @@ Divisible is a Ruby gem useful in case you need to find out if one number is div
 
 == Examples
 
-  9.divisible_by(3) # => true
-  10.divisible_by(3) # => false
-  12.divisible_by(3) # => true
-  12.divisible_by(4) # => true
-  15.divisible_by(4) # => false
+  9.divisible_by? 3  # => true
+  10.divisible_by? 3  # => false
+  12.divisible_by? 3  # => true
+  12.divisible_by? 4  # => true
+  15.divisible_by? 4 # => false
+  21.divisible_by? 3,7 # => true
+  35.divisible_by? 3,5,0 # => false
   
 Same can be done with
 
