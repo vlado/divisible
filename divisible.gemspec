@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
+$:.push File.expand_path("../lib", __FILE__)
 require 'divisible/version'
 
 Gem::Specification.new do |s|
@@ -14,10 +14,11 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "divisible"
-
-  s.add_development_dependency "bundler", ">= 1.0.0.rc.5"
+  
+  s.add_development_dependency "rake"
 
   s.files        = `git ls-files`.split("\n")
+  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables  = `git ls-files`.split("\n").select{|f| f =~ /^bin/}
   s.require_path = 'lib'
 end

@@ -10,6 +10,6 @@ class Fixnum
   # <b>DEPRECATED:</b> Please use <tt>divisible_by?</tt> instead.
   def divisible_by(*args)
     warn "[DEPRECATION] `divisible_by` is deprecated.  Please use `divisible_by?` instead."
-    divisible_by?(args)
+    divisible_by?(*args)
   end
 end
