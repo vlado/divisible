@@ -1,6 +1,14 @@
 = Divisible
 
-Divisible is a Ruby gem useful in case you need to find out if one number is divisible by another
+Still using the C way of testing if one number is divisible by another? 
+
+Still using this?
+
+  x % 13 == 0 || x % 6  == 0 || x % 3 == 0
+
+No need anymore! We present you *Divisible*. Check if number is divisible by another like a boss!
+
+  x.divisible_by? 13, 6, 3
 
 == Examples
 
