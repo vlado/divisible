@@ -1,3 +1,4 @@
+require "divisible/version"
 require "divisible/core_ext"
 
 module Divisible
