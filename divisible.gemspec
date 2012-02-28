@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["vlado@cingel.hr"]
   s.homepage    = "https://github.com/vlado/divisible"
   s.summary     = "Useful to find out if one number is divisible by another"
-  s.description = "Useful to find out if one number is divisible by another. For example 9.divisible_by(3) will return true, and 10.divisible_by(3) will return false"
+  s.description = "Useful to find out if one number is divisible by another. For example 9.divisible_by?(3) will return true, and 9.divisible_by?(2) will return false"
 
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "divisible"
