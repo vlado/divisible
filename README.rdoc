@@ -1,5 +1,7 @@
 = Divisible
 
+{<img src="https://badge.fury.io/rb/divisible.png" alt="Gem Version" />}[http://badge.fury.io/rb/divisible]
+
 Still using the C way of testing if one number is divisible by another?
 
 Still using this?
@@ -19,7 +21,7 @@ No need anymore! We present you *Divisible*. Check if number is divisible by ano
   15.divisible_by? 4 # => false
   21.divisible_by? 3,7 # => true
   35.divisible_by? 3,5,0 # => false
-  
+
 Same can be done with
 
   Divisible.check(9, 3) # => true
@@ -27,11 +29,11 @@ Same can be done with
   Divisible.check(12, 3) # => true
   Divisible.check(12, 4) # => true
   Divisible.check(15, 4) # => false
-  
+
 == Install
 
   gem install divisible
-  
+
 == Licence
 
 Copyright (c) 2011 Vlado Cingel, released under the MIT license
